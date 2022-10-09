@@ -1,0 +1,11 @@
+#pragma once
+#include "devices/display.h"
+#include "devices/key.h"
+#include "devices/pins.h"
+#include "devices/power.h"
+#include "devices/rtc.h"
+#include "devices/buzzer.h"
+#include "devices/flash.h"
+#include "devices/log.h"
+#include "devices/thermometer.h"
+#include "devices/core.h"
