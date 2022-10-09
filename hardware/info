@@ -1,0 +1,408 @@
+{
+  "uuid": "c5b76e0488e559962ae4b2efa2345bc0",
+  "path": "Offline/IV18%E6%97%B6%E9%92%9FV2.1",
+  "name": "IV18时钟V2.1",
+  "content": "在V2.0的基础上修改,另设PCB为2层,4层不能打蓝色阻焊.",
+  "created_at": "2022-06-08 17:31:16",
+  "updated_at": "2022-06-17 23:24:48",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "04f6deeb030c285d17094d2e220b239c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d000c01ea1aa4d81b3e236d87d6338ec": 1,
+        "91003b1f00a64c2b85fe17ed25178f88": 1,
+        "1004d7547a644f8e9c638ea460249bce": 1,
+        "37906836d5ef6ddc808dbd4cf7d2c319": 4,
+        "c7550b120c4b891056fb4375ae21f255": 1,
+        "4479a24208b54d81adb146224ac819d3": 3,
+        "09b6397d82b741f4987b06414e7a636d": 1,
+        "c41097eb60b28d7c4f2127ec24dcd2ec": 1,
+        "908ced202529416bac1203a9b300d842": 1,
+        "f25255c57f134812be231adccff0c3dc": 8,
+        "b8d59bf1775949b7ad23e9618dd1a2ad": 4,
+        "6b23a1fd3e284f3593fff51dedfed361": 1,
+        "2bc27a352cbb4bef86a1bd6c1bcad604": 1,
+        "a501608bb29042b1b2ce1bb2f5831880": 1,
+        "9f8ec98fe8d04780b5386d036603f353": 2,
+        "7c1bcc29113e491ead3cffdadbbb1703": 1,
+        "30b9f364abd1426284f169e113b90600": 2,
+        "df8015bdaf144200a6034f437d471a24": 1,
+        "3b90cf2b74b9485baff4754f3eb57b4d": 1,
+        "fc201dca4d754e299267f397944e7cfd": 4,
+        "ce5fa60f162342d1b42b3ae48358cb6b": 1,
+        "0b84238e0dc645109aaba113679cd42c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "GSC9040YA-16R2700",
+          1,
+          "BUZ-SMD_GSC9045YB-16R2700",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C255322",
+            "BOM_Manufacturer": "INGHAi",
+            "BOM_Manufacturer Part": "GSC9040YA-16R2700",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bb78fdd89bfd4c0e8bc5b29c9b5e948e",
+            "uuid": "0b84238e0dc645109aaba113679cd42c"
+          }
+        ],
+        [
+          "1uF/100V",
+          4,
+          "C1206",
+          "C1,C4,C8,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL31B105KCHNNNE",
+            "BOM_Supplier Part": "C13832",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "37906836d5ef6ddc808dbd4cf7d2c319"
+          }
+        ],
+        [
+          "47uF",
+          1,
+          "CAP-TH_BD10.0-P5.00-D1.0-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CapXon",
+            "BOM_Manufacturer Part": "KF470M100G125A",
+            "BOM_Supplier Part": "C59348",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "10740f144756421793e1ecc7520b3129",
+            "uuid": "c7550b120c4b891056fb4375ae21f255"
+          }
+        ],
+        [
+          "100uF",
+          3,
+          "CAP-SMD_BD6.3-L6.5-W6.5-LS7.2-FD",
+          "C3,C5,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2982822",
+            "BOM_Manufacturer": "KNSCHA(科尼盛)",
+            "BOM_Manufacturer Part": "KNM2100UF35V149EC0055",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "faee7fcb0dae4ab9a6a44840c0d9d753",
+            "uuid": "4479a24208b54d81adb146224ac819d3"
+          }
+        ],
+        [
+          "6pF",
+          2,
+          "C0805",
+          "C9,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282709",
+            "BOM_Manufacturer": "CCTC",
+            "BOM_Manufacturer Part": "TCC0805C0G6R0D500BT",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "30b9f364abd1426284f169e113b90600"
+          }
+        ],
+        [
+          "SK310A-LTP",
+          1,
+          "SMA_L4.4-W2.8-LS5.4-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MCC",
+            "BOM_Manufacturer Part": "SK310A-LTP",
+            "BOM_Supplier Part": "C91474",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9275fb41c0064223b77db30e06cb1bfe",
+            "uuid": "1004d7547a644f8e9c638ea460249bce"
+          }
+        ],
+        [
+          "30uH/500mA",
+          1,
+          "IND-SMD_L6.0-W6.0_FNR60XXS",
+          "L2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "cjiang",
+            "BOM_Manufacturer Part": "FNR6045S300MT",
+            "BOM_Supplier Part": "C168082",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bddac37858a647a1bbfc70b5b443b4a5",
+            "uuid": "91003b1f00a64c2b85fe17ed25178f88"
+          }
+        ],
+        [
+          "LH8050QLT1G",
+          2,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LRC",
+            "BOM_Manufacturer Part": "LH8050QLT1G",
+            "BOM_Supplier Part": "C132810",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "9f8ec98fe8d04780b5386d036603f353"
+          }
+        ],
+        [
+          "30kΩ",
+          1,
+          "RES-ADJ-TH_VZ067TL1B202",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HDK",
+            "BOM_Manufacturer Part": "VZ067TL1B303",
+            "BOM_Supplier Part": "C145139",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9ec7ff40ab2c4316b8d4ddc69eead4d4",
+            "uuid": "09b6397d82b741f4987b06414e7a636d"
+          }
+        ],
+        [
+          "510Ω",
+          1,
+          "R0805",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F5100T5E",
+            "BOM_Supplier Part": "C17734",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "c41097eb60b28d7c4f2127ec24dcd2ec"
+          }
+        ],
+        [
+          "4.7kΩ",
+          8,
+          "R0805",
+          "R3,R4,R5,R6,R7,R8,R9,R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WALSIN",
+            "BOM_Manufacturer Part": "WR08X4701FTL",
+            "BOM_Supplier Part": "C163995",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "f25255c57f134812be231adccff0c3dc"
+          }
+        ],
+        [
+          "TS-KG02N-BB90F",
+          4,
+          "SW-TH_4P-L7.5-W9.0-P4.50",
+          "SW1,SW2,SW3,SW4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2874279",
+            "BOM_Manufacturer": "台湾汉博",
+            "BOM_Manufacturer Part": "TS-KG02N-BB90F",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2969c29243714698a3d339d80b757a73",
+            "uuid": "fc201dca4d754e299267f397944e7cfd"
+          }
+        ],
+        [
+          "XL6007E1",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "XLSEMI",
+            "BOM_Manufacturer Part": "XL6007E1",
+            "BOM_Supplier Part": "C73334",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "71450838f2174409b429143f6acc9d2a",
+            "uuid": "d000c01ea1aa4d81b3e236d87d6338ec"
+          }
+        ],
+        [
+          "DS1302ZM",
+          1,
+          "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C910859",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "DS1302ZM",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1fe0adc377c7472ba321d68db1c050fa",
+            "uuid": "3b90cf2b74b9485baff4754f3eb57b4d"
+          }
+        ],
+        [
+          "AMS1117-3.3V",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2688239",
+            "BOM_Manufacturer": "WPMtek(维攀微)",
+            "BOM_Manufacturer Part": "AMS1117-3.3V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "09952c2799c54b76904e264324ada8f3",
+            "uuid": "908ced202529416bac1203a9b300d842"
+          }
+        ],
+        [
+          "CR2032 (卧式焊脚)20-6*9",
+          1,
+          "BAT-TH_CR2032",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70382",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "CR2032 (卧式焊脚)20-6*9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e3235af501345d58e09e9cd446a7370",
+            "uuid": "7c1bcc29113e491ead3cffdadbbb1703"
+          }
+        ],
+        [
+          "HV5812WG-G",
+          1,
+          "SOIC-28_L18.0-W7.5-P1.27-LS10.3-BL",
+          "U12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C219183",
+            "BOM_Manufacturer": "Microchip Tech",
+            "BOM_Manufacturer Part": "HV5812WG-G",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "25448c758a6849a891c759ab99d84b68",
+            "uuid": "a501608bb29042b1b2ce1bb2f5831880"
+          }
+        ],
+        [
+          "32.768kHz",
+          1,
+          "MC-306_4P-L8.0-W3.2-P5.5-BL",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EPSON",
+            "BOM_Manufacturer Part": "MC-306 32.768kHz 6.0pF 20ppm",
+            "BOM_Supplier Part": "C83979",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2a3c3a81d239492ba8f90b3c84c476f8",
+            "uuid": "df8015bdaf144200a6034f437d471a24"
+          }
+        ]
+      ],
+      "updateTime": 1654702363,
+      "createTime": 1654680677,
+      "histories": [],
+      "created_at": "2022-06-08 17:31:17",
+      "updated_at": "2022-06-08 23:32:43"
+    },
+    {
+      "uuid": "fe77d80ecfa48124b86cc99fd2c38f69",
+      "puuid": "c5b76e0488e559962ae4b2efa2345bc0",
+      "title": "PCB_IV18时钟V2.1",
+      "filename": "PCB_IV18时钟V2.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 9,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
+        "25448c758a6849a891c759ab99d84b68": 1,
+        "7bdec8012728462a85919a4d0d033579": 4,
+        "bb78fdd89bfd4c0e8bc5b29c9b5e948e": 1,
+        "10740f144756421793e1ecc7520b3129": 1,
+        "faee7fcb0dae4ab9a6a44840c0d9d753": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "9275fb41c0064223b77db30e06cb1bfe": 1,
+        "bddac37858a647a1bbfc70b5b443b4a5": 1,
+        "9ec7ff40ab2c4316b8d4ddc69eead4d4": 1,
+        "2969c29243714698a3d339d80b757a73": 4,
+        "71450838f2174409b429143f6acc9d2a": 1,
+        "1fe0adc377c7472ba321d68db1c050fa": 1,
+        "09952c2799c54b76904e264324ada8f3": 1,
+        "3bf0cdaef6d34789a6501970af697a0e": 4,
+        "7a681f9ef97d435aae0b66d148cd94ab": 1,
+        "2a3c3a81d239492ba8f90b3c84c476f8": 1,
+        "c8018ef78d0e4b62808d806b4e5ee164": 1,
+        "9243b26644e4429eaf9f90438901a281": 1
+      },
+      "BOM": [],
+      "updateTime": 1654873815,
+      "createTime": 1654753115,
+      "histories": [],
+      "created_at": "2022-06-09 13:38:35",
+      "updated_at": "2022-06-10 23:10:15"
+    },
+    {
+      "uuid": "1cf3aecd362d9126dd3d2e2bf1334f53",
+      "puuid": "c5b76e0488e559962ae4b2efa2345bc0",
+      "title": "PCB_IV18时钟V2.2_ljx",
+      "filename": "PCB_IV18时钟V2.2_ljx.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 9,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
+        "25448c758a6849a891c759ab99d84b68": 1,
+        "7bdec8012728462a85919a4d0d033579": 4,
+        "bb78fdd89bfd4c0e8bc5b29c9b5e948e": 1,
+        "10740f144756421793e1ecc7520b3129": 1,
+        "faee7fcb0dae4ab9a6a44840c0d9d753": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "9275fb41c0064223b77db30e06cb1bfe": 1,
+        "bddac37858a647a1bbfc70b5b443b4a5": 1,
+        "9ec7ff40ab2c4316b8d4ddc69eead4d4": 1,
+        "2969c29243714698a3d339d80b757a73": 4,
+        "71450838f2174409b429143f6acc9d2a": 1,
+        "1fe0adc377c7472ba321d68db1c050fa": 1,
+        "09952c2799c54b76904e264324ada8f3": 1,
+        "3bf0cdaef6d34789a6501970af697a0e": 4,
+        "7a681f9ef97d435aae0b66d148cd94ab": 1,
+        "2a3c3a81d239492ba8f90b3c84c476f8": 1,
+        "c8018ef78d0e4b62808d806b4e5ee164": 1,
+        "9243b26644e4429eaf9f90438901a281": 1
+      },
+      "BOM": [],
+      "updateTime": 1655479488,
+      "createTime": 1655459955,
+      "histories": [],
+      "created_at": "2022-06-17 17:59:15",
+      "updated_at": "2022-06-17 23:24:48"
+    }
+  ],
+  "sort": [],
+  "title": "IV18时钟V2.1",
+  "foldername": "IV18时钟V2.1",
+  "schfilename": "IV18时钟V2.1.json",
+  "schfilemtime": 1654702363035
+}
